@@ -110,7 +110,7 @@ BLE 模式
 
 ## 配置
 
-RokidOS 会读取 `/data/system/device.json` 中的信息来初始化一些系统信息
+RokidOS 会读取 `/data/system/device.json` 中的信息来初始化一些系统信息；在 `/data/system/` 下创建 `device.json` ，自定义以下内容：
 
 - `namePrefix` {String} 用于设备开启蓝牙时的名称前缀，如："Rokid-Pebble-" 等。
 - `triggerWord` {Object} 自定义激活词配置：
